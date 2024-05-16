@@ -1,0 +1,13 @@
+[versions]
+android-compile = "34"
+android-min = "26"
+jvm-toolchain = "11"
+kotlin = "1.9.24"
+
+[libraries]
+firebase-bom = { module = "com.google.firebase:firebase-bom", version = "33.0.0" }
+firebase-crashlytics = { module = "com.google.firebase:firebase-crashlytics-ktx" }
+
+[plugins]
+android-library = { id = "com.android.library", version = "8.4.0" }
+kotlin-multiplatform = { id = "org.jetbrains.kotlin.multiplatform", version.ref = "kotlin" }
